@@ -1,5 +1,7 @@
 ### 安装并运行Rabbit服务器
+
 环境mac 10.12.5
+
 * 安装
 在Mac OS X中使用brew工具，可以很容易的安装RabbitMQ的服务端，只需要按如下命令操作即可：
 ```
@@ -11,11 +13,13 @@ brew install erlang
 brew install rabbitmq
 ```
 * 配置环境变量
+
 通过上面的命令，RabbitMQ Server的命令会被安装到/usr/local/sbin，并不会自动加到用户的环境变量中去，
 
 所以需要在.bash_profile文件中增加下面内容：
-
+```
 PATH=$PATH:/usr/local/sbin
+```
 
 * 启动服务
 ```
