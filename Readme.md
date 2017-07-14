@@ -29,8 +29,11 @@ rabbitmq-server
 
 
 * 访问
+
 localhost:15672
+
 用户名和密码均为：guest
+
 可以在打开的页面中，点击Admin，添加用户。
 
 
